@@ -15,6 +15,7 @@ UserManagement is a web application developed with Spring Boot that facilitates 
 - **Spring Security**: For authentication and authorization.
 - **JWT**: For secure authentication handling.
 - **PostgreSQL**: For database management.
+- **Swagger**: For documentation.
 
 ## User Management API Endpoints
 
