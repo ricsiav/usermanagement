@@ -62,6 +62,8 @@ public class UserService {
             roles.add(roleEntity);}
 		String password = passwordGeneratorService.generatePassword();
 		UserEntity userNew = UserEntity.builder()
+										.name(user.getName())
+										.surname(user.getSurname())
 										.email(user.getEmail())
 										.username(user.getUsername())
 										.password(encoder.encode(password))
