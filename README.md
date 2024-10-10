@@ -43,6 +43,8 @@ UserManagement is a web application developed with Spring Boot that facilitates 
    - Represents the request body for updating a user.
    - **Fields**:
      - `id`: Long (User ID)
+     - `name`: String (First name)
+     - `surname`: String (Last name)
      - `email`: String (Email address)
      - `username`: String (Username)
      - `role`: String (User role, e.g., ADMIN, USER)
@@ -78,8 +80,10 @@ UserManagement is a web application developed with Spring Boot that facilitates 
 
 ```json
 {
+  "id": "",
+  "name": "name",
+  "surname": "surname",
   "username": "newuser",
-  "password": "securePassword",
   "email": "newuser@example.com",
   "role": "USER"
 }
